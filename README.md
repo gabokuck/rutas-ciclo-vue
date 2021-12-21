@@ -1,4 +1,6 @@
-# 05-rutas-ciclo
+# Rutas en Vue y ciclo de vida de los componentes
+
+En este proyecto se muestra el sistema de rutas y el ciclo de vida de los componentes.
 
 ## Project setup
 ```
