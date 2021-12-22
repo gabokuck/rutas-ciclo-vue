@@ -19,9 +19,11 @@ export default {
     data(){
         return{
             links: [
-                { to: '/home', namee:'pokenssdfds' ,name: 'Pokemons' },
-                { to: '/pokemonid/150', name: 'Por Id' },
-                { to: '/about', name: 'About' },
+                { to: 'pokemon-home', name: 'Pokemons' },
+                { to: 'pokemon-id', name: 'Por Id', id: 152 },
+                { to: 'pokemon-about', name: 'About' },
+                { to: 'dbz-characters', name: 'Personajes' },
+                { to: 'dbz-about', name: 'DBZ About' },
                 { to: 'https://google.com', name: 'Google' },
             ]
         }
@@ -36,7 +38,7 @@ export default {
 
 <style scoped>
     div {
-        padding: 0 300px;
+        padding: 0 200px;
     }
 
     div a {
